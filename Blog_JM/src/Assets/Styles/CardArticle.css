@@ -1,0 +1,79 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+
+
+
+.container{
+    background-color: #FFF;
+    width: 318px;
+    height: 18.1975% ;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    margin: 10px;
+    border-radius: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+
+.cardImg{
+    width: 100% ;
+    margin: 0;
+    height: 200px;
+    border-radius: 10px 10px 0px 0px;
+
+}
+
+.cardContainer{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    margin: 0;
+}
+
+
+.avatar{   
+    margin: 0 10px;
+    width: 28px;
+    border-radius: 50%;
+    border: 1px solid #757575;
+}
+
+.spanAuthor{
+    font-family: 'Libre Baskerville', serif;
+    font-size: 50%;
+    color: #8e8e8e;
+    display: flex;
+    align-items: center;
+    margin: 10px 0px 0px;
+}
+
+.articleTitle{
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
+    font-size: 1.3rem;
+    padding: 6px 10px 8px;
+}
+
+.articleDescription{
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 400;
+    line-height: 18px;
+    font-size: 0.75em;
+    padding: 0px 10px 8px; 
+}
+
+.articleDateParagraph{
+    font-family: 'Libre Baskerville', serif;
+    font-weight: 400;
+    font-size: 0.58rem;
+    padding: 0px 10px 5px;
+    color: #2b2b2b;
+
+}
+.articleDate{
+    font-family: 'Libre Baskerville', serif;
+    color: #757575;
+    font-weight: 400;
+    font-size: 0.54rem;
+    padding: 0px 0px 0px 5px;
+}
