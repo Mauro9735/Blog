@@ -1,0 +1,58 @@
+.new-articles-section {
+    width: 95%;
+    margin: auto;
+    border-bottom: 1px solid black;
+}
+
+.new-releases-box{
+    display: flex;
+    justify-content: center;
+    align-items: stretch;
+    width: 95%;
+    margin: 10px auto;
+    border: 0.3px solid rgb(121, 121, 121);
+}
+
+.avatar2{   
+    margin: auto 10px;
+    width: 20%;
+    height: 20%;
+    border-radius: 50%;
+    border: 1px solid #757575;
+}
+
+.author-title-name{
+    margin-left: 0;
+}
+
+.author-name {
+    font-size: 0.7rem;
+}
+
+.article-date{
+    font-family: 'Libre Baskerville', serif;
+    color: #757575;
+    font-weight: 400;
+    font-size: 0.60rem;
+    padding: 0px 0px 0px 5px;
+}
+
+@media (min-width: 426px){
+    .avatar2{
+        width: 77px;
+        height: 77px;
+    }
+}
+
+@media (min-width: 600px){
+    .component-box{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+}
+
+@media(min-width: 1090px){
+    .component-box{
+        grid-template-columns: 1fr 1fr 1fr;
+    }
+}

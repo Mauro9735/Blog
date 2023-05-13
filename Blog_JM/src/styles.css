@@ -1,0 +1,23 @@
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:wght@400;700&display=swap');
+
+* {
+    font-family: 'Libre Baskerville', serif;
+}
+
+footer {
+    width: 100%;
+    background-color: lightgray;
+}
+
+.footer-font {
+    font-size: 10px;
+}
+
+
+@media(min-width: 850px){
+    .categories-card-div {
+        display: flex;
+        justify-content: center;
+        align-items: flex-start;
+    } 
+}
