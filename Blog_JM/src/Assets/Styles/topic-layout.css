@@ -1,0 +1,39 @@
+.categories{
+	width: 90%;
+	margin: 10px auto;
+
+}
+
+.buttons{
+	border-bottom: 0.3px solid rgb(230, 230, 230);
+}
+
+.follow-write-button {
+	background-color:#e63947;
+	border-radius:27px;
+	border:2px solid #e63947;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-family:Verdana;
+	font-size:15px;
+	padding:4px 10px;
+	text-decoration:none;
+	margin-bottom: 10px;
+}
+
+.topics-authors{
+    display: none;
+}
+
+@media(min-width: 900px){
+    .topics-authors{
+        display: block;
+    }
+    .categories{
+        border-right: 1px solid rgb(190, 190, 190);
+    }
+    .topic-layout{
+        display: flex;
+    }
+}

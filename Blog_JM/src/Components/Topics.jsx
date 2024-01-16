@@ -1,8 +1,8 @@
 import React from "react";
-import "../assets/Styles/categories.css";
+import "../assets/Styles/topics.css";
 import categories from "../Api/categories.json"
 
-function Categories () {
+function Topics () {
     return(
         categories.map((data, i) => {
             return (
@@ -14,4 +14,4 @@ function Categories () {
     )
 }
 
-export default Categories;
+export default Topics;
