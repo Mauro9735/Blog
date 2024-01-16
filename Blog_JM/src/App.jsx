@@ -7,6 +7,10 @@ import {
 import "./styles.css";
 import Navbar from "./Components/Navbar/Navbar";
 import Home from "./Layouts/Home";
+import Article from "./Layouts/Article";
+import CreateArticle from "./Layouts/CreateArticle";
+import EditArticle from "./Layouts/EditArticle";
+import TopicLayout from "./Layouts/TopicLayout";
 import Footer from "./Components/footer";
 
 
@@ -18,6 +22,10 @@ function App() {
       <Routes>
         <Route path="/" element={<Navigate to="/home" />} />
         <Route path="/home" element={<Home />} />
+        <Route path="/article" element={<Article />}/>
+        <Route path="/create-article" element={<CreateArticle />}/>
+        <Route path="/edit-article" element={<EditArticle />}/>
+        <Route path="/topics" element={<TopicLayout />}/>
       </Routes>
       <Footer />
     </>

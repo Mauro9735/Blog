@@ -1,0 +1,17 @@
+h1{
+    font-family: 'Libre Baskerville', serif;
+}
+
+.col-lg-6{
+    margin-bottom: 20px;
+}
+
+.btn-primary{
+    margin-bottom: 20px;
+}
+
+@media(min-width: 770px){
+    .box{
+        margin: auto;
+    }
+}

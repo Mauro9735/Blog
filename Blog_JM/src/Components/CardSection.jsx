@@ -8,7 +8,7 @@ import "../Assets/Styles/CardArticle.css";
 function CardSection() {
   return (
         <section className="card-section">
-          <div>
+          <div className="overflowed-box">
             <Card/>
           </div>
         </section>

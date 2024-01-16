@@ -1,5 +1,6 @@
 import React from "react";
-import CategoriesList from "../Components/CategoriesList";
+import TopicsList from "../Components/TopicsList";
+import TopicsAuthors from "../Components/TopicsAuthors";
 import NewReleasesSection from "../Components/NewReleasesSection";
 import CardSection from "../Components/CardSection";
 import "../styles.css"
@@ -9,7 +10,7 @@ function Home() {
         <>
             <NewReleasesSection />
             <div className="categories-card-div">
-                <CategoriesList />
+                <TopicsAuthors />
                 <CardSection />
             </div>
            
