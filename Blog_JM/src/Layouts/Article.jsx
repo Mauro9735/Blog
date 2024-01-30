@@ -1,9 +1,11 @@
 import React from "react";
-import articleData from "../Api/article.json";
+import { useParams } from "react-router-dom";
+import data from "../Api/data.json";
 import "../Assets/Styles/article.css";
 
 function Article(){
-    let article = articleData[0]
+    const params = useParams();
+    let article = data[params.id];
     return(
         <div className="article-container">
             <h1>{article.title}</h1>
@@ -17,7 +19,6 @@ function Article(){
             </div>
             <p className="article-content">{article.content}</p>
         </div>
-        
     )
 }
 

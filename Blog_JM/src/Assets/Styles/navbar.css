@@ -92,3 +92,9 @@ a:visited {
         align-items: flex-start;
     }
 }
+
+@media (min-width: 1023px){
+    .nav-links-ul li{
+        font-size: medium;
+    }
+}

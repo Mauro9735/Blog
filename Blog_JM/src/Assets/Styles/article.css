@@ -26,6 +26,7 @@ h1 {
 
 .article-content{
     margin: auto 20px;
+    font-size: 19px;
 }
 
 @media (min-width: 430px){
@@ -55,5 +56,15 @@ h1 {
     }
     .article-content{
         margin: auto;
+    }
+}
+
+@media (min-width: 1024px){
+    .article-container{
+        margin: 15px auto;
+        width: 900px;
+    }
+    .article-content{
+        font-size: 19px;
     }
 }
