@@ -3,13 +3,11 @@ import Topics from "./Topics";
 import "../assets/Styles/topics.css";
 
 function TopicsList(){
+
     return(
         <section className="category-section">
-            <h3>Temas</h3>
+            <h3>Categorías</h3>
             <div className="tags-box">
-                <Topics />
-                <Topics />
-                <Topics />
                 <Topics />
             </div>
             

@@ -3,9 +3,9 @@ import data from "../Api/data.json";
 import "../Assets/Styles/CardArticle.css";
 import { NavLink } from 'react-router-dom';
 
-const Card = () =>{
+const AuthorCard = ({params}) =>{
     return(
-        data.map( (data,index) => {
+        data.filter(item => item.author === `${params.id}`).map((data, index) => {
             return(
                 <div className="container" key={index}>
                     <img className="cardImg" src={data.img} alt="Img" />
@@ -21,4 +21,4 @@ const Card = () =>{
     )
 }
 
-export default Card;
+export default AuthorCard;

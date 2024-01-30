@@ -3,9 +3,10 @@ import data from "../Api/data.json";
 import "../Assets/Styles/CardArticle.css";
 import { NavLink } from 'react-router-dom';
 
-const Card = () =>{
+const Card = ({params}) =>{
+    console.log("this is what is arriving: " + params.id);
     return(
-        data.map( (data,index) => {
+        data.filter(item => item.category === `${params.id}`).map((data, index) => {
             return(
                 <div className="container" key={index}>
                     <img className="cardImg" src={data.img} alt="Img" />

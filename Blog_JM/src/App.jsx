@@ -12,8 +12,7 @@ import CreateArticle from "./Layouts/CreateArticle";
 import EditArticle from "./Layouts/EditArticle";
 import TopicLayout from "./Layouts/TopicLayout";
 import Footer from "./Components/footer";
-
-
+import AuthorLayout from "./Layouts/AuthorLayout";
 
 function App() {
   return(
@@ -22,10 +21,11 @@ function App() {
       <Routes>
         <Route path="/" element={<Navigate to="/home" />} />
         <Route path="/home" element={<Home />} />
-        <Route path="/article" element={<Article />}/>
+        <Route path="/article/:id" element={<Article />}/>
         <Route path="/create-article" element={<CreateArticle />}/>
         <Route path="/edit-article" element={<EditArticle />}/>
-        <Route path="/topics" element={<TopicLayout />}/>
+        <Route path="/topics/:id" element={<TopicLayout />}/>
+        <Route path="/authors/:id" element={<AuthorLayout />}/>
       </Routes>
       <Footer />
     </>
