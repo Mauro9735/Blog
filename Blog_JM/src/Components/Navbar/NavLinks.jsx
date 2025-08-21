@@ -13,6 +13,9 @@ function NavLinks (){
             <li>
                 <a href="/">Categorías</a>
             </li>
+            <li>
+                <a href="/register">Registrarse</a>
+            </li>
         </ul>
     )
 }
