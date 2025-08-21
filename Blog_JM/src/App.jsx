@@ -26,6 +26,7 @@ function App() {
         <Route path="/edit-article" element={<EditArticle />}/>
         <Route path="/topics/:id" element={<TopicLayout />}/>
         <Route path="/authors/:id" element={<AuthorLayout />}/>
+        <Route path="/register" element={<Register />}/>
       </Routes>
       <Footer />
     </>
